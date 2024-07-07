@@ -1,0 +1,9 @@
+pandas==2.2.2
+tabula-py==2.9.1
+pymupdf==1.24.4 
+fitz 
+    # Download "Build Tools" for Visual Studio" (https://visualstudio.microsoft.com/visual-cpp-build-tools/)
+    # Select "Desktop development with C++" workload
+    # Restart computer
+    # Used in extract-field-position.py in "import fritz" to extract bounding box for specified field names
+openpyxl==3.1.2
