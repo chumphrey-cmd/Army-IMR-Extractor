@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Army-IMR-Extractor** automates the extraction of specific fields from one or multiple Individual Medical Readiness (IMR) PDFs into a neatly formatted Excel spreadsheet. This tool simplifies Army administrative tasks by reducing manual data entry and organizing medical readiness data for easy tracking.
+The **Army-IMR-Extractor** automates the extraction of specific fields from one or multiple IMR PDFs into an Excel spreadsheet.
 
 **Note:** This script is designed to operate in **Windows 11 environments**.
 
@@ -15,8 +15,16 @@ The **Army-IMR-Extractor** automates the extraction of specific fields from one 
    - During installation, select the **Desktop development with C++** workload.
    - After installation, restart your computer.
 
-2. **Install Required Python Libraries**:  
-   Ensure the following Python packages are installed:
+2. **Create the Virtual Environment**:  
+   In the same directory as the `imr.py` script, create a virtual environment:
+   ```bash
+   python -m venv "name_of_your_venv"
+
+3. **Activate Virtual Environment**
+   ```bash
+   "name_of_your_venv"\Scripts\activate
+
+4. **Install Python Libraries**:  
    ```bash
    pip install -r requirments.txt
 
